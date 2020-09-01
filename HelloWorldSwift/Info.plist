@@ -20,6 +20,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<!--  Test loginID sdk start -->
+	<key>NSFaceIDUsageDescription</key>
+	<string>LoginId requires usage of FaceID feature</string>
+	<!--  Test loginID sdk end -->
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

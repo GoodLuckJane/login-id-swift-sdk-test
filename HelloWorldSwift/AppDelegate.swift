@@ -7,14 +7,21 @@
 //
 
 import UIKit
+import LoginSDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Test loginID sdk start
+        let clientId="7uxQrSqPTDvbHeMHYtMDhdhdaxHaZ8KqzW7AqTM1HZhZJJFoUNotGrTJmGAjQIwujn17A1VSu5Up_BRFUmCQWQ=="
+        let baseURL="https://10e54340-e703-11ea-a09c-b971825988a5.sandbox-apse1.native-api.loginid.io"
+        LoginApi.client.configure(clientId: clientId, baseURL: baseURL)
+        // Test loginID sdk end
+        
         return true
     }
 

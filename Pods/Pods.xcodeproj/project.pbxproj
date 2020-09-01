@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3ADA40FA384CAB2569A209DD415E7420 /* LoginSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5FE68297CEE15FBFCA4B7EE45D12C58B /* Build configuration list for PBXAggregateTarget "LoginSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = LoginSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5E4701783D71BD3266CF8E300CA466AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CACC40C8C58E36D58F65A41A880F0206 /* Pods-HelloWorldSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 499C9216D4933E961E42F4CE1DA5BE3A /* Pods-HelloWorldSwift-dummy.m */; };
+		DD40B5B42C39CCCCE1D28876DCE97DF9 /* Pods-HelloWorldSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85EBB1C6FF3EEBD321EBA6A5761C0E6F /* Pods-HelloWorldSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38485AF3A93900BBF12693AF4DCA5007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ADA40FA384CAB2569A209DD415E7420;
+			remoteInfo = LoginSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22F96D61275FC115DC8A420EAD0CC818 /* Pods-HelloWorldSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWorldSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		2C21D8932A9BDF1DC44A4DB3D1EE7F2A /* Pods_HelloWorldSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HelloWorldSwift.framework; path = "Pods-HelloWorldSwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3C6432BE364D0745C81C9C4A119CB0D2 /* Pods-HelloWorldSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWorldSwift-Info.plist"; sourceTree = "<group>"; };
+		499C9216D4933E961E42F4CE1DA5BE3A /* Pods-HelloWorldSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HelloWorldSwift-dummy.m"; sourceTree = "<group>"; };
+		6F6A707A862463351D02ED2610343C11 /* Pods-HelloWorldSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HelloWorldSwift.modulemap"; sourceTree = "<group>"; };
+		7A33938AE4DD02571C397B4801E3A821 /* Pods-HelloWorldSwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloWorldSwift-frameworks.sh"; sourceTree = "<group>"; };
+		85EA385A6C17C9442217388DE58C76D8 /* LoginSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginSDK.release.xcconfig; sourceTree = "<group>"; };
+		85EBB1C6FF3EEBD321EBA6A5761C0E6F /* Pods-HelloWorldSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HelloWorldSwift-umbrella.h"; sourceTree = "<group>"; };
+		995D956945C491AD00DDE912315D41D9 /* Pods-HelloWorldSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HelloWorldSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC54CA5B091AA23D28F11DA5F16843C3 /* Pods-HelloWorldSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWorldSwift.release.xcconfig"; sourceTree = "<group>"; };
+		C3E7A37B8D1041DAA1C4E751F42906A0 /* LoginSDK-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LoginSDK-Swift.h"; path = "LoginSDK.framework/Headers/LoginSDK-Swift.h"; sourceTree = "<group>"; };
+		D80BBBD2DD8B684044C061CC48728DF5 /* Pods-HelloWorldSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWorldSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		E1097982A49D5EF87542EBB55D6ADB80 /* LoginSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginSDK.debug.xcconfig; sourceTree = "<group>"; };
+		ECFF4621BA521E5CEC7E472AD0CFCC85 /* LoginSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoginSDK.h; path = LoginSDK.framework/Headers/LoginSDK.h; sourceTree = "<group>"; };
+		FD6FA25D95BF925340D3F86F3DF2E284 /* LoginSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LoginSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		118FC3F6898A1FA5993DDB3DB9521A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E4701783D71BD3266CF8E300CA466AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07EF5CE402235CCEB248D660833D3B58 /* Pods-HelloWorldSwift */ = {
+			isa = PBXGroup;
+			children = (
+				6F6A707A862463351D02ED2610343C11 /* Pods-HelloWorldSwift.modulemap */,
+				995D956945C491AD00DDE912315D41D9 /* Pods-HelloWorldSwift-acknowledgements.markdown */,
+				D80BBBD2DD8B684044C061CC48728DF5 /* Pods-HelloWorldSwift-acknowledgements.plist */,
+				499C9216D4933E961E42F4CE1DA5BE3A /* Pods-HelloWorldSwift-dummy.m */,
+				7A33938AE4DD02571C397B4801E3A821 /* Pods-HelloWorldSwift-frameworks.sh */,
+				3C6432BE364D0745C81C9C4A119CB0D2 /* Pods-HelloWorldSwift-Info.plist */,
+				85EBB1C6FF3EEBD321EBA6A5761C0E6F /* Pods-HelloWorldSwift-umbrella.h */,
+				22F96D61275FC115DC8A420EAD0CC818 /* Pods-HelloWorldSwift.debug.xcconfig */,
+				AC54CA5B091AA23D28F11DA5F16843C3 /* Pods-HelloWorldSwift.release.xcconfig */,
+			);
+			name = "Pods-HelloWorldSwift";
+			path = "Target Support Files/Pods-HelloWorldSwift";
+			sourceTree = "<group>";
+		};
+		144C90454B82A9F4E7634AB197B62630 /* LoginSDK */ = {
+			isa = PBXGroup;
+			children = (
+				ECFF4621BA521E5CEC7E472AD0CFCC85 /* LoginSDK.h */,
+				C3E7A37B8D1041DAA1C4E751F42906A0 /* LoginSDK-Swift.h */,
+				3A46A944FDFB87B1E3EF116506A9D5D8 /* Frameworks */,
+				760987100DB934A800AC81965AB35B7E /* Support Files */,
+			);
+			name = LoginSDK;
+			path = LoginSDK;
+			sourceTree = "<group>";
+		};
+		21A248A66839C86D98CAC2980A854ECD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07EF5CE402235CCEB248D660833D3B58 /* Pods-HelloWorldSwift */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3A46A944FDFB87B1E3EF116506A9D5D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD6FA25D95BF925340D3F86F3DF2E284 /* LoginSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52264261FAD0B29A204768199DD44F00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				144C90454B82A9F4E7634AB197B62630 /* LoginSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		760987100DB934A800AC81965AB35B7E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1097982A49D5EF87542EBB55D6ADB80 /* LoginSDK.debug.xcconfig */,
+				85EA385A6C17C9442217388DE58C76D8 /* LoginSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LoginSDK";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C0A6155F00D7CF5CE0B9AA2718C7921F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C21D8932A9BDF1DC44A4DB3D1EE7F2A /* Pods_HelloWorldSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				52264261FAD0B29A204768199DD44F00 /* Pods */,
+				C0A6155F00D7CF5CE0B9AA2718C7921F /* Products */,
+				21A248A66839C86D98CAC2980A854ECD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9F7083DAA7B79699C85B6E9901E6FFB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD40B5B42C39CCCCE1D28876DCE97DF9 /* Pods-HelloWorldSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A028B9BD8D97FF931B0EC2009650E3FF /* Pods-HelloWorldSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A86C37180898486751E5AE53D38D230 /* Build configuration list for PBXNativeTarget "Pods-HelloWorldSwift" */;
+			buildPhases = (
+				9F7083DAA7B79699C85B6E9901E6FFB0 /* Headers */,
+				43B984A76799B90096072E4A08B51C19 /* Sources */,
+				118FC3F6898A1FA5993DDB3DB9521A9A /* Frameworks */,
+				C3A3C9EC8DD268AF5E6E54DB9586C84E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A48C41CE757D4FDBD34FED9DCA6A1E9 /* PBXTargetDependency */,
+			);
+			name = "Pods-HelloWorldSwift";
+			productName = "Pods-HelloWorldSwift";
+			productReference = 2C21D8932A9BDF1DC44A4DB3D1EE7F2A /* Pods_HelloWorldSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C0A6155F00D7CF5CE0B9AA2718C7921F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ADA40FA384CAB2569A209DD415E7420 /* LoginSDK */,
+				A028B9BD8D97FF931B0EC2009650E3FF /* Pods-HelloWorldSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3A3C9EC8DD268AF5E6E54DB9586C84E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43B984A76799B90096072E4A08B51C19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACC40C8C58E36D58F65A41A880F0206 /* Pods-HelloWorldSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A48C41CE757D4FDBD34FED9DCA6A1E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LoginSDK;
+			target = 3ADA40FA384CAB2569A209DD415E7420 /* LoginSDK */;
+			targetProxy = 38485AF3A93900BBF12693AF4DCA5007 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7334CC246B752038E843F107F1DA780E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85EA385A6C17C9442217388DE58C76D8 /* LoginSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EE0A622EB4831E5DB45BDD23C0484E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22F96D61275FC115DC8A420EAD0CC818 /* Pods-HelloWorldSwift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloWorldSwift/Pods-HelloWorldSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloWorldSwift/Pods-HelloWorldSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2296A10BEF7386C97D49C841A73D98A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC54CA5B091AA23D28F11DA5F16843C3 /* Pods-HelloWorldSwift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloWorldSwift/Pods-HelloWorldSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloWorldSwift/Pods-HelloWorldSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E990EF171E2A92C21E1C64CD782FA0EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1097982A49D5EF87542EBB55D6ADB80 /* LoginSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A86C37180898486751E5AE53D38D230 /* Build configuration list for PBXNativeTarget "Pods-HelloWorldSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE0A622EB4831E5DB45BDD23C0484E2 /* Debug */,
+				A2296A10BEF7386C97D49C841A73D98A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FE68297CEE15FBFCA4B7EE45D12C58B /* Build configuration list for PBXAggregateTarget "LoginSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E990EF171E2A92C21E1C64CD782FA0EF /* Debug */,
+				7334CC246B752038E843F107F1DA780E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
