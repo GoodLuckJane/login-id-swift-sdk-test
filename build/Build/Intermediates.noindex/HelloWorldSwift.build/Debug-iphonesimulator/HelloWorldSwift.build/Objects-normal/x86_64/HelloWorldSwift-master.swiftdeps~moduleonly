@@ -1,7 +1,0 @@
-version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
-options: "a792bcf762fef519f80f9c6f7acd1eca"
-build_time: [1599000769, 405062000]
-inputs:
-  "/Users/zhenyingzhang/Documents/Code/HelloWorldSwift/HelloWorldSwift/ViewController.swift": [1599000754, 69686245]
-  "/Users/zhenyingzhang/Documents/Code/HelloWorldSwift/HelloWorldSwift/AppDelegate.swift": [1599000566, 147719798]
-  "/Users/zhenyingzhang/Documents/Code/HelloWorldSwift/HelloWorldSwift/SceneDelegate.swift": [1598978522, 100127910]
